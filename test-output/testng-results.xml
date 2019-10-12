@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13256" started-at="2019-10-12T10:17:19Z" finished-at="2019-10-12T10:17:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13256" started-at="2019-10-12T10:17:19Z" finished-at="2019-10-12T10:17:33Z">
+      <class name="TC_001_Vendor.VendorTestCase">
+        <test-method status="PASS" signature="setData()[pri:0, instance:TC_001_Vendor.VendorTestCase@13deb50e]" name="setData" is-config="true" duration-ms="15" started-at="2019-10-12T10:17:19Z" finished-at="2019-10-12T10:17:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="FindVendor(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TC_001_Vendor.VendorTestCase@13deb50e]" name="FindVendor" duration-ms="12499" started-at="2019-10-12T10:17:20Z" data-provider="fetchData" finished-at="2019-10-12T10:17:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kumar.testleaf@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[leaf@12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Blue Lagoon]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FindVendor -->
+      </class> <!-- TC_001_Vendor.VendorTestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
